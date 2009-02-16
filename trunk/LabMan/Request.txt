@@ -1,0 +1,14 @@
+
+Server and Client
+
+Server:
+1. Send command to client to execute script.
+2. Send file list including target path to client, let it download to target path.
+3. Force client to upgrade.
+4. Authentication on client.
+
+Client:
+1. Lock and unlock the window, key and mouse, in order to force the user log on.
+2. Heart beat with server.
+3. If user log on, the authentication is done on server.
+4. Be able to collect some information locally, and report to server. Such as Opera version, Mcafee version, etc.
